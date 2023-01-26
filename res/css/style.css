@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  /*cursor: url('../img/pencilZ.png'),auto;*/
+}
+body {
+  background-color: #f5ebbc;
+}
+
+#mainNadpis {
+  text-align: center;
+}
+
+#list {
+  max-width: 800px;
+  border: solid black 2px;
+  display: block;
+  margin: auto;
+  background-image: url(../img/listImg.png);
+  min-height: 650px;
+}
+
+#boxik {
+  max-width: 700px;
+  display: block;
+  margin: 50px auto;
+  padding: 0.7em;
+}
+
+#add {
+  padding: 0.15em 1em;
+}
+
+textarea {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  overflow: visible;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 25px;
+  height: 25px;
+}
+
+#boxik {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+input[type="checkbox"],
+textarea {
+  margin-right: 50px;
+}
+
+#Delete {
+  position: absolute;
+  top: 200px;
+}
